@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Trust Regions of Graph Propagation: Explaining the U-Shaped Performance Pattern in Graph Neural Networks"
+authors:
+  - family-names: "Xue"
+    given-names: "Mengdan"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.0.0
+date-released: 2025-12-24
+url: "https://github.com/MengdanXue/trust-regions-gnn"
+repository-code: "https://github.com/MengdanXue/trust-regions-gnn"
+license: MIT
+type: software
+keywords:
+  - graph-neural-networks
+  - homophily
+  - heterophily
+  - message-passing
+  - trust-regions
+  - structural-predictability-index
+abstract: >-
+  This repository provides the official implementation for studying
+  the U-shaped performance pattern in Graph Neural Networks. We introduce
+  the Structural Predictability Index (SPI = |2h - 1|) which explains
+  82% of GNN advantage variance (R² = 0.82, p < 10⁻¹⁷). GNNs outperform
+  MLPs at both extremes of the homophily spectrum (h < 0.3 and h > 0.7)
+  but significantly underperform in the mid-range (0.3 < h < 0.7).
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Xue"
+      given-names: "Mengdan"
+  title: "Trust Regions of Graph Propagation: Explaining the U-Shaped Performance Pattern in Graph Neural Networks"
+  year: 2025
+  journal: "arXiv preprint"

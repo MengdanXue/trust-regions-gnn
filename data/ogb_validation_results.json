@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ogbn-arxiv",
+    "n_nodes": 169343,
+    "n_edges": 1166243,
+    "homophily": 0.655083031580897,
+    "mlp_mean": 0.5335884616175957,
+    "gcn_mean": 0.528019532401978,
+    "delta": -0.005568929215617691,
+    "quadrant": "Q3",
+    "prediction": "GCN",
+    "winner": "Tie"
+  }
+]

@@ -1,0 +1,25 @@
+# Quick Test Configuration
+# ========================
+# Use this config for rapid testing (5 minutes)
+
+# Inherit from default
+_base_: default.yaml
+
+# Override for quick testing
+training:
+  epochs: 50
+  patience: 20
+
+experiment:
+  n_runs: 2
+  seeds: [42, 123]
+
+h_sweep:
+  h_values: [0.1, 0.5, 0.9]
+  n_nodes: 500
+  n_edges: 2500
+  n_runs_per_h: 3
+
+cross_model:
+  models: [MLP, GCN]
+  n_runs: 2
