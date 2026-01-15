@@ -1,0 +1,27 @@
+{
+  "SPI_GCN_Correlation": {
+    "Pearson_r": 0.9291,
+    "Pearson_p": "2.92e-04",
+    "Spearman_rho": 0.9664,
+    "Spearman_p": "2.21e-05",
+    "R2": 0.8632,
+    "R2_95CI_low": 0.7101,
+    "R2_95CI_high": 0.9711
+  },
+  "Model_Comparison": {
+    "Linear_R2": 0.8632,
+    "Quadratic_R2": 0.9683,
+    "F_test_p": 0.0043,
+    "Quadratic_better": "True"
+  },
+  "Effect_Sizes": {
+    "Cohens_d_h09_vs_h05": 14.44,
+    "Cohens_d_SAGE_vs_GCN_h05": 13.99,
+    "Variance_ratio_GCN_SAGE": 843.56
+  },
+  "Residual_Diagnostics": {
+    "Shapiro_W": 0.8644,
+    "Shapiro_p": 0.107,
+    "Normality": "True"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "correlation": {
+    "r": -0.265031294365109,
+    "p": 0.32118758605321013
+  },
+  "high_mlp_gcn_wins": "4/12",
+  "low_mlp_gcn_wins": "3/4",
+  "new_rule_accuracy": "9/13",
+  "predictions": [
+    {
+      "dataset": "Texas",
+      "mlp_acc": 0.8594594717025756,
+      "residual": -0.2410633786036992,
+      "gcn_mlp": -0.24324324131011954,
+      "pred": "MLP",
+      "actual": "MLP",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Wisconsin",
+      "mlp_acc": 0.8392156958580017,
+      "residual": -0.10718292906362595,
+      "gcn_mlp": -0.3137254774570465,
+      "pred": "MLP",
+      "actual": "MLP",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Cornell",
+      "mlp_acc": 0.7297297477722168,
+      "residual": -0.12298630175412131,
+      "gcn_mlp": -0.25405406355857846,
+      "pred": "MLP",
+      "actual": "MLP",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Squirrel",
+      "mlp_acc": 0.3450528264045715,
+      "residual": 0.1476299978763719,
+      "gcn_mlp": 0.13525455594062807,
+      "pred": "GCN",
+      "actual": "GCN",
+      "rule": "Residual>0.1",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Chameleon",
+      "mlp_acc": 0.5052631556987762,
+      "residual": 0.128322898715022,
+      "gcn_mlp": 0.13728069663047793,
+      "pred": "Uncertain",
+      "actual": "GCN",
+      "rule": "FS uncertain",
+      "correct": "?"
+    },
+    {
+      "dataset": "Actor",
+      "mlp_acc": 0.355921071767807,
+      "residual": 0.07566843725157912,
+      "gcn_mlp": -0.065657901763916,
+      "pred": "Neutral",
+      "actual": "MLP",
+      "rule": "Neutral zone",
+      "correct": "?"
+    },
+    {
+      "dataset": "Cora",
+      "mlp_acc": 0.745756459236145,
+      "residual": 0.007127938273311374,
+      "gcn_mlp": 0.13616236448287966,
+      "pred": "MLP",
+      "actual": "GCN",
+      "rule": "FS>0.65",
+      "correct": "N"
+    },
+    {
+      "dataset": "CiteSeer",
+      "mlp_acc": 0.7384384751319886,
+      "residual": 0.05257968325685192,
+      "gcn_mlp": 0.03753751516342163,
+      "pred": "MLP",
+      "actual": "GCN",
+      "rule": "FS>0.65",
+      "correct": "N"
+    },
+    {
+      "dataset": "PubMed",
+      "mlp_acc": 0.8813894391059875,
+      "residual": -0.12607507515984956,
+      "gcn_mlp": -0.0017241477966308816,
+      "pred": "MLP",
+      "actual": "Tie",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Computers",
+      "mlp_acc": 0.8254453301429748,
+      "residual": 0.01762379468180353,
+      "gcn_mlp": 0.07299163341522219,
+      "pred": "MLP",
+      "actual": "GCN",
+      "rule": "FS>0.65",
+      "correct": "N"
+    },
+    {
+      "dataset": "Photo",
+      "mlp_acc": 0.9196078538894653,
+      "residual": 0.10385862384426536,
+      "gcn_mlp": 0.019215703010559082,
+      "pred": "MLP",
+      "actual": "GCN",
+      "rule": "FS>0.65",
+      "correct": "N"
+    },
+    {
+      "dataset": "Roman-empire",
+      "mlp_acc": 0.6665196021397909,
+      "residual": 0.20807003170096428,
+      "gcn_mlp": -0.20229429006576544,
+      "pred": "MLP",
+      "actual": "MLP",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "mlp_acc": 0.3948424955209096,
+      "residual": 0.009663516038287912,
+      "gcn_mlp": 0.025175203879674313,
+      "pred": "Neutral",
+      "actual": "GCN",
+      "rule": "Neutral zone",
+      "correct": "?"
+    },
+    {
+      "dataset": "Minesweeper",
+      "mlp_acc": 0.8023333549499512,
+      "residual": -0.41576727357038945,
+      "gcn_mlp": 0.003000020980834961,
+      "pred": "MLP",
+      "actual": "Tie",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Tolokers",
+      "mlp_acc": 0.7845805088678995,
+      "residual": -0.3756392193038056,
+      "gcn_mlp": 0.0065192381540934985,
+      "pred": "MLP",
+      "actual": "Tie",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    },
+    {
+      "dataset": "Questions",
+      "mlp_acc": 0.9702265461285909,
+      "residual": -0.6281338646515306,
+      "gcn_mlp": 0.0,
+      "pred": "MLP",
+      "actual": "Tie",
+      "rule": "FS>0.65",
+      "correct": "Y"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "experiment": "expanded_heterophilic_validation",
+  "n_datasets": 5,
+  "results": [
+    {
+      "dataset": "Roman-empire",
+      "n_nodes": 22662,
+      "n_features": 300,
+      "n_classes": 18,
+      "homophily": 0.04689160734415054,
+      "direction": -0.10475686565041542,
+      "gcn_mean": 0.46422531207402545,
+      "gcn_std": 0.009332267916780341,
+      "mlp_mean": 0.6665196021397909,
+      "mlp_std": 0.005713989442422764,
+      "gcn_mlp": -0.20229429006576544
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "n_nodes": 24492,
+      "n_features": 300,
+      "n_classes": 5,
+      "homophily": 0.3803761303424835,
+      "direction": 0.07573902606964111,
+      "gcn_mean": 0.4200176994005839,
+      "gcn_std": 0.0041910312071289325,
+      "mlp_mean": 0.3948424955209096,
+      "mlp_std": 0.008194368949501573,
+      "gcn_mlp": 0.025175203879674313
+    },
+    {
+      "dataset": "Minesweeper",
+      "n_nodes": 10000,
+      "n_features": 7,
+      "n_classes": 2,
+      "homophily": 0.6827825903892517,
+      "direction": -0.006099998950958252,
+      "gcn_mean": 0.8053333759307861,
+      "gcn_std": 0.0041899348277036974,
+      "mlp_mean": 0.8023333549499512,
+      "mlp_std": 0.0016996785639358859,
+      "gcn_mlp": 0.003000020980834961
+    },
+    {
+      "dataset": "Tolokers",
+      "n_nodes": 11758,
+      "n_features": 10,
+      "n_classes": 2,
+      "homophily": 0.5945221781730652,
+      "direction": -0.0662527084350586,
+      "gcn_mean": 0.791099747021993,
+      "gcn_std": 0.00223185384941865,
+      "mlp_mean": 0.7845805088678995,
+      "mlp_std": 0.0019119556180907246,
+      "gcn_mlp": 0.0065192381540934985
+    },
+    {
+      "dataset": "Questions",
+      "n_nodes": 48921,
+      "n_features": 301,
+      "n_classes": 2,
+      "homophily": 0.8395662307739258,
+      "direction": -0.04033029079437256,
+      "gcn_mean": 0.9702265461285909,
+      "gcn_std": 0.0004595860377327239,
+      "mlp_mean": 0.9702265461285909,
+      "mlp_std": 0.0005429041603535073,
+      "gcn_mlp": 0.0
+    }
+  ]
+}

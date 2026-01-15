@@ -1,0 +1,43 @@
+{
+  "wilcoxon_gcn_mlp": {
+    "test": "wilcoxon_gcn_mlp",
+    "statistic": 24.0,
+    "p_value": 0.0735939238114404
+  },
+  "wilcoxon_h2gcn_gcn": {
+    "test": "wilcoxon_h2gcn_gcn",
+    "statistic": 21.0,
+    "p_value": 0.015625,
+    "n": 6
+  },
+  "mcnemar": {
+    "test": "mcnemar",
+    "b": 0,
+    "c": 0,
+    "statistic": 0,
+    "p_value": 1.0
+  },
+  "friedman": {
+    "test": "friedman",
+    "statistic": 6.0,
+    "p_value": 0.04978706836786395,
+    "mean_ranks": {
+      "MLP": 2.3333333333333335,
+      "GCN": 2.3333333333333335,
+      "H2GCN": 1.3333333333333333
+    },
+    "n_datasets": 9
+  },
+  "bootstrap": {
+    "test": "bootstrap",
+    "mean": -0.07558649462812089,
+    "ci_95": [
+      -0.14806790795396357,
+      -0.003073874422732561
+    ],
+    "ci_90": [
+      -0.13632658032809986,
+      -0.015102629608967745
+    ]
+  }
+}
