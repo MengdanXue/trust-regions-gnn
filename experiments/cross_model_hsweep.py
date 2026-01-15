@@ -2,8 +2,7 @@
 Cross-Model H-Sweep Experiment
 Tests whether U-shape pattern holds across different GNN architectures.
 
-This is the P0-1 "killer experiment" that proves U-shape is a data property,
-not a model-specific artifact.
+Core experiment that proves U-shape is a data property, not a model-specific artifact.
 
 Models tested:
 - MLP (baseline, no graph structure)

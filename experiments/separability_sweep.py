@@ -2,7 +2,7 @@
 Feature Separability Sweep Experiment
 Tests whether the U-shape pattern holds across different feature quality levels.
 
-This addresses Codex's concern: "U-shape might be artifact of synthetic setup"
+Validates that findings are not artifacts of specific synthetic configurations.
 """
 
 import json

@@ -3,7 +3,7 @@ Synthetic-Real Gap Analysis for SPI Framework
 ==============================================
 Analyzes why SPI works on synthetic data but fails on real heterophilic data.
 
-Key Findings from 3-AI Review:
+Key Findings:
 1. High-h region: 100% accuracy (both synthetic and real)
 2. Low-h region: 100% synthetic accuracy, 0% real accuracy
 3. Four factors explain the gap:

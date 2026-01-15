@@ -3,7 +3,7 @@
 H-Sweep Experiment: Visualizing the Reliability Frontier
 =========================================================
 
-This is the P0 "killer experiment" recommended by all three AIs (Claude, Gemini, Codex).
+Core experiment for the Trust Region framework validation.
 
 Purpose:
 - Generate synthetic graphs with controlled homophily (h from 0.0 to 1.0)

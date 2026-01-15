@@ -225,7 +225,7 @@ def main():
     print("=" * 80)
     print("LEAVE-ONE-DATASET-OUT (LODO) CROSS-VALIDATION")
     print("=" * 80)
-    print("\nThis is the critical validation requested by all 3 AI reviewers.")
+    print("\nThis is the critical validation for publication-quality rigor.")
     print("Goal: Prove that the two-factor framework generalizes to unseen datasets.\n")
 
     # 数据集配置
@@ -463,7 +463,7 @@ KEY RESULTS:
 CONCLUSION:
 ===========
 The two-factor framework DOES generalize to unseen datasets.
-LODO validation addresses the core concern raised by all 3 AI reviewers.
+LODO validation addresses the core concern for publication-quality rigor.
 """)
 
     # 保存结果

@@ -1,7 +1,7 @@
 """
 Enhanced Statistical Analysis for SPI Framework
 ================================================
-Addresses concerns raised by Gemini, Codex, and Claude in 3-AI review.
+Comprehensive statistical validation for the Trust Region framework.
 
 Includes:
 1. Model diagnostics (residual analysis, normality, heteroskedasticity)
@@ -328,7 +328,6 @@ def run_complete_analysis():
     """
     print("=" * 70)
     print("ENHANCED STATISTICAL ANALYSIS FOR SPI FRAMEWORK")
-    print("Addressing 3-AI Review Concerns (Gemini, Codex, Claude)")
     print("=" * 70)
 
     # Load data

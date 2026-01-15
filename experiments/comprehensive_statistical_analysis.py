@@ -1,6 +1,6 @@
 """
 Comprehensive Statistical Analysis for Trust Regions GNN Paper
-Addresses reviewer concerns from 3-AI review:
+Addresses key statistical rigor requirements:
 1. Bootstrap 95% CI for R² and correlations
 2. Spearman correlation (already have, need to report properly)
 3. Residual analysis and model diagnostics

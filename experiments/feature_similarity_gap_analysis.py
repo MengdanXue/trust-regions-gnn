@@ -2,7 +2,7 @@
 Experiment 3: Feature Similarity Gap Analysis
 Purpose: Analyze if heterophilic neighbors are "opposite" (contrastive) or "orthogonal" (noise)
 
-Key hypothesis from Claude: Real heterophilic neighbors are feature-orthogonal (noise),
+Key hypothesis: Real heterophilic neighbors are feature-orthogonal (noise),
 not feature-opposite (contrastive signal). This explains why GCN fails on low-h graphs.
 """
 

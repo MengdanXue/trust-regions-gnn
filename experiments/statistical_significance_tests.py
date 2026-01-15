@@ -1,6 +1,6 @@
 """
 Statistical Significance Tests for SPI Framework
-Addresses the statistical rigor concerns raised by Gemini and Codex
+Comprehensive statistical validation for publication-quality analysis.
 
 Tests included:
 1. Wilcoxon signed-rank test (paired comparison)
