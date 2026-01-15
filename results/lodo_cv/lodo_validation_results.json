@@ -1,0 +1,389 @@
+{
+  "lodo_summary": {
+    "n_datasets": 16,
+    "rule_decisive": 12,
+    "rule_correct": 12,
+    "rule_accuracy": 1.0,
+    "rule_ci_95": [
+      1.0,
+      1.0
+    ],
+    "regression_correct": 11,
+    "regression_accuracy": 0.6875,
+    "regression_ci_95": [
+      0.4375,
+      0.875
+    ],
+    "cohens_d": -0.21806146586065428
+  },
+  "quadrant_analysis": {
+    "Q1": {
+      "count": 8,
+      "correct": 8
+    },
+    "Q2": {
+      "count": 4,
+      "correct": 4
+    },
+    "Q3": {
+      "count": 0
+    },
+    "Q4": {
+      "count": 4
+    }
+  },
+  "detailed_results": [
+    {
+      "dataset": "Cora",
+      "mlp_acc": 0.7549815654754639,
+      "homophily": 0.8099658961727927,
+      "gcn_mlp": 0.12103320360183711,
+      "actual": "GCN",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.06593676954759486,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.35218216323054874,
+        -0.8692615187942526,
+        0.6281427925272928,
+        -0.6991111816868408
+      ]
+    },
+    {
+      "dataset": "CiteSeer",
+      "mlp_acc": 0.742042064666748,
+      "homophily": 0.7355008787346221,
+      "gcn_mlp": 0.02522522211074829,
+      "actual": "GCN",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.057601601227637876,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.2984094450207996,
+        -0.8045882831293982,
+        0.6048544847871502,
+        -0.4671970580756654
+      ]
+    },
+    {
+      "dataset": "PubMed",
+      "mlp_acc": 0.8765212774276734,
+      "homophily": 0.8023869686851367,
+      "gcn_mlp": 0.0009634852409362571,
+      "actual": "Tie",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.035482232141593927,
+      "regression_correct": false,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.3241289900808571,
+        -0.8383788651192348,
+        0.6292252043537118,
+        -0.5921810645288453
+      ]
+    },
+    {
+      "dataset": "Computers",
+      "mlp_acc": 0.8331516146659851,
+      "homophily": 0.7772155811617133,
+      "gcn_mlp": 0.061941123008728005,
+      "actual": "GCN",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.02916022642478345,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.32367320044878406,
+        -0.8355322718151997,
+        0.6112586482998188,
+        -0.5665427553304972
+      ]
+    },
+    {
+      "dataset": "Photo",
+      "mlp_acc": 0.9164706110954285,
+      "homophily": 0.8272436408830964,
+      "gcn_mlp": 0.023267960548400857,
+      "actual": "GCN",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.030584226298822504,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.32232625338357135,
+        -0.8351002221258705,
+        0.6204513122547806,
+        -0.5739812342037497
+      ]
+    },
+    {
+      "dataset": "Texas",
+      "mlp_acc": 0.762162184715271,
+      "homophily": 0.08710801393728224,
+      "gcn_mlp": -0.21081082820892327,
+      "actual": "MLP",
+      "rule_pred": "MLP",
+      "rule_correct": true,
+      "regression_pred": "MLP",
+      "regression_pred_value": -0.29813705709561056,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.3501559021549077,
+        -0.9104082356504111,
+        0.676438201130172,
+        -0.6437729604944364
+      ]
+    },
+    {
+      "dataset": "Wisconsin",
+      "mlp_acc": 0.7960784435272217,
+      "homophily": 0.19213973799126638,
+      "gcn_mlp": -0.3254901885986328,
+      "actual": "MLP",
+      "rule_pred": "MLP",
+      "rule_correct": true,
+      "regression_pred": "MLP",
+      "regression_pred_value": -0.21658868452249472,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.26232156057353856,
+        -0.7118547495407834,
+        0.5358224489695785,
+        -0.3871938135787624
+      ]
+    },
+    {
+      "dataset": "Cornell",
+      "mlp_acc": 0.7243243455886841,
+      "homophily": 0.12746858168761221,
+      "gcn_mlp": -0.28108109831809996,
+      "actual": "MLP",
+      "rule_pred": "MLP",
+      "rule_correct": true,
+      "regression_pred": "MLP",
+      "regression_pred_value": -0.2076388934113224,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.306119071288678,
+        -0.7858614046678265,
+        0.577650524966215,
+        -0.5171234517573766
+      ]
+    },
+    {
+      "dataset": "Squirrel",
+      "mlp_acc": 0.33294907212257385,
+      "homophily": 0.2224086925406833,
+      "gcn_mlp": 0.15504323244094848,
+      "actual": "GCN",
+      "rule_pred": "Uncertain",
+      "rule_correct": null,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.06065606278836584,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.21488179153400971,
+        -0.6862420068784154,
+        0.5605192457885828,
+        -0.33976238206577236
+      ]
+    },
+    {
+      "dataset": "Chameleon",
+      "mlp_acc": 0.4964912235736847,
+      "homophily": 0.23053892215568864,
+      "gcn_mlp": 0.154824560880661,
+      "actual": "GCN",
+      "rule_pred": "Uncertain",
+      "rule_correct": null,
+      "regression_pred": "MLP",
+      "regression_pred_value": -0.04513299484154044,
+      "regression_correct": false,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.22008495225253116,
+        -0.7165560659726091,
+        0.5941124380444178,
+        -0.39990387529555604
+      ]
+    },
+    {
+      "dataset": "Roman-empire",
+      "mlp_acc": 0.6562541484832763,
+      "homophily": 0.04689160871017706,
+      "gcn_mlp": -0.19007280468940735,
+      "actual": "MLP",
+      "rule_pred": "MLP",
+      "rule_correct": true,
+      "regression_pred": "MLP",
+      "regression_pred_value": -0.2113751116716975,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.31194791876343786,
+        -0.8286442474398275,
+        0.619316677118727,
+        -0.5312159013390625
+      ]
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "mlp_acc": 0.4025311410427094,
+      "homophily": 0.3803761418592155,
+      "gcn_mlp": 0.03012859225273129,
+      "actual": "GCN",
+      "rule_pred": "Uncertain",
+      "rule_correct": null,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.12386786539654968,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.30722734979552674,
+        -0.8209792648672558,
+        0.5894739141064964,
+        -0.3393056125757692
+      ]
+    },
+    {
+      "dataset": "Minesweeper",
+      "mlp_acc": 0.7963000297546386,
+      "homophily": 0.682782599868027,
+      "gcn_mlp": -0.0004999876022339089,
+      "actual": "Tie",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.000814990909686053,
+      "regression_correct": false,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.3185383959015668,
+        -0.8297739235110961,
+        0.6153072148538429,
+        -0.5543134557527081
+      ]
+    },
+    {
+      "dataset": "Tolokers",
+      "mlp_acc": 0.7772958874702454,
+      "homophily": 0.5945221579961464,
+      "gcn_mlp": 0.005017018318176247,
+      "actual": "Tie",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "MLP",
+      "regression_pred_value": -0.03954831024893507,
+      "regression_correct": true,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.3393695322042649,
+        -0.8609045929796983,
+        0.6291839477977246,
+        -0.6329489437669041
+      ]
+    },
+    {
+      "dataset": "Questions",
+      "mlp_acc": 0.9708533644676208,
+      "homophily": 0.8395662368112544,
+      "gcn_mlp": -0.000327026844024636,
+      "actual": "Tie",
+      "rule_pred": "GCN_maybe",
+      "rule_correct": true,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.031121519581227743,
+      "regression_correct": false,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.3456130076846778,
+        -0.8665120991932858,
+        0.6475697813797603,
+        -0.6911589127211389
+      ]
+    },
+    {
+      "dataset": "Actor",
+      "mlp_acc": 0.36486843824386594,
+      "homophily": 0.21810114021456253,
+      "gcn_mlp": -0.06486842632293699,
+      "actual": "MLP",
+      "rule_pred": "Uncertain",
+      "rule_correct": null,
+      "regression_pred": "GCN",
+      "regression_pred_value": 0.1412955605088646,
+      "regression_correct": false,
+      "thresholds_used": [
+        0.55,
+        0.4
+      ],
+      "coeffs_used": [
+        0.5296841871627088,
+        -1.116531295819723,
+        0.7216827964041145,
+        -0.9991230293115386
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "n_datasets": 16,
+  "prediction_accuracy": 1.0,
+  "regression": {
+    "intercept": 0.3101172541931637,
+    "fs_coeff": -0.8175412778345024,
+    "h_coeff": 0.6109508244528158,
+    "interaction_coeff": -0.5415223792083992,
+    "r_squared": 0.7675301611619363
+  },
+  "quadrants": {
+    "Q1": 8,
+    "Q2": 4,
+    "Q3": 0,
+    "Q4": 4
+  },
+  "results": [
+    {
+      "dataset": "Cora",
+      "n_nodes": 2708,
+      "n_features": 1433,
+      "homophily": 0.8099658961727927,
+      "mlp_mean": 0.7549815654754639,
+      "gcn_mean": 0.876014769077301,
+      "gcn_mlp": 0.12103320360183711
+    },
+    {
+      "dataset": "CiteSeer",
+      "n_nodes": 3327,
+      "n_features": 3703,
+      "homophily": 0.7355008787346221,
+      "mlp_mean": 0.742042064666748,
+      "gcn_mean": 0.7672672867774963,
+      "gcn_mlp": 0.02522522211074829
+    },
+    {
+      "dataset": "PubMed",
+      "n_nodes": 19717,
+      "n_features": 500,
+      "homophily": 0.8023869686851367,
+      "mlp_mean": 0.8765212774276734,
+      "gcn_mean": 0.8774340510368347,
+      "gcn_mlp": 0.0009127736091613103
+    },
+    {
+      "dataset": "Computers",
+      "n_nodes": 13752,
+      "n_features": 767,
+      "homophily": 0.7772155811617133,
+      "mlp_mean": 0.8331516146659851,
+      "gcn_mean": 0.896546745300293,
+      "gcn_mlp": 0.0633951306343079
+    },
+    {
+      "dataset": "Photo",
+      "n_nodes": 7650,
+      "n_features": 745,
+      "homophily": 0.8272436408830964,
+      "mlp_mean": 0.9164706110954285,
+      "gcn_mean": 0.9397385716438293,
+      "gcn_mlp": 0.023267960548400857
+    },
+    {
+      "dataset": "Texas",
+      "n_nodes": 183,
+      "n_features": 1703,
+      "homophily": 0.08710801393728224,
+      "mlp_mean": 0.762162184715271,
+      "gcn_mean": 0.5513513565063477,
+      "gcn_mlp": -0.21081082820892327
+    },
+    {
+      "dataset": "Wisconsin",
+      "n_nodes": 251,
+      "n_features": 1703,
+      "homophily": 0.19213973799126638,
+      "mlp_mean": 0.7960784435272217,
+      "gcn_mean": 0.47058825492858886,
+      "gcn_mlp": -0.3254901885986328
+    },
+    {
+      "dataset": "Cornell",
+      "n_nodes": 183,
+      "n_features": 1703,
+      "homophily": 0.12746858168761221,
+      "mlp_mean": 0.7243243455886841,
+      "gcn_mean": 0.4432432472705841,
+      "gcn_mlp": -0.28108109831809996
+    },
+    {
+      "dataset": "Squirrel",
+      "n_nodes": 5201,
+      "n_features": 2089,
+      "homophily": 0.2224086925406833,
+      "mlp_mean": 0.3325648307800293,
+      "gcn_mean": 0.47934677004814147,
+      "gcn_mlp": 0.14678193926811217
+    },
+    {
+      "dataset": "Chameleon",
+      "n_nodes": 2277,
+      "n_features": 2325,
+      "homophily": 0.23053892215568864,
+      "mlp_mean": 0.4964912235736847,
+      "gcn_mean": 0.6513157844543457,
+      "gcn_mlp": 0.154824560880661
+    },
+    {
+      "dataset": "Roman-empire",
+      "n_nodes": 22662,
+      "n_features": 300,
+      "homophily": 0.04689160871017706,
+      "mlp_mean": 0.6562541484832763,
+      "gcn_mean": 0.46754908561706543,
+      "gcn_mlp": -0.18870506286621092
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "n_nodes": 24492,
+      "n_features": 300,
+      "homophily": 0.3803761418592155,
+      "mlp_mean": 0.4021637201309204,
+      "gcn_mean": 0.4309451043605804,
+      "gcn_mlp": 0.028781384229660034
+    },
+    {
+      "dataset": "Minesweeper",
+      "n_nodes": 10000,
+      "n_features": 7,
+      "homophily": 0.682782599868027,
+      "mlp_mean": 0.7963000297546386,
+      "gcn_mean": 0.7958000421524047,
+      "gcn_mlp": -0.0004999876022339089
+    },
+    {
+      "dataset": "Tolokers",
+      "n_nodes": 11758,
+      "n_features": 10,
+      "homophily": 0.5945221579961464,
+      "mlp_mean": 0.7772958874702454,
+      "gcn_mean": 0.7823129057884216,
+      "gcn_mlp": 0.005017018318176247
+    },
+    {
+      "dataset": "Questions",
+      "n_nodes": 48921,
+      "n_features": 301,
+      "homophily": 0.8395662368112544,
+      "mlp_mean": 0.9708533644676208,
+      "gcn_mean": 0.9705263376235962,
+      "gcn_mlp": -0.000327026844024636
+    },
+    {
+      "dataset": "Actor",
+      "n_nodes": 7600,
+      "n_features": 932,
+      "homophily": 0.21810114021456253,
+      "mlp_mean": 0.36486843824386594,
+      "gcn_mean": 0.30000001192092896,
+      "gcn_mlp": -0.06486842632293699
+    }
+  ],
+  "predictions": [
+    {
+      "dataset": "Cora",
+      "mlp_acc": 0.7549815654754639,
+      "homophily": 0.8099658961727927,
+      "gcn_mlp": 0.12103320360183711,
+      "prediction": "GCN_maybe",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "CiteSeer",
+      "mlp_acc": 0.742042064666748,
+      "homophily": 0.7355008787346221,
+      "gcn_mlp": 0.02522522211074829,
+      "prediction": "GCN_maybe",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "PubMed",
+      "mlp_acc": 0.8765212774276734,
+      "homophily": 0.8023869686851367,
+      "gcn_mlp": 0.0009127736091613103,
+      "prediction": "GCN_maybe",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Computers",
+      "mlp_acc": 0.8331516146659851,
+      "homophily": 0.7772155811617133,
+      "gcn_mlp": 0.0633951306343079,
+      "prediction": "GCN_maybe",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "Photo",
+      "mlp_acc": 0.9164706110954285,
+      "homophily": 0.8272436408830964,
+      "gcn_mlp": 0.023267960548400857,
+      "prediction": "GCN_maybe",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "Texas",
+      "mlp_acc": 0.762162184715271,
+      "homophily": 0.08710801393728224,
+      "gcn_mlp": -0.21081082820892327,
+      "prediction": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Wisconsin",
+      "mlp_acc": 0.7960784435272217,
+      "homophily": 0.19213973799126638,
+      "gcn_mlp": -0.3254901885986328,
+      "prediction": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Cornell",
+      "mlp_acc": 0.7243243455886841,
+      "homophily": 0.12746858168761221,
+      "gcn_mlp": -0.28108109831809996,
+      "prediction": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Squirrel",
+      "mlp_acc": 0.3325648307800293,
+      "homophily": 0.2224086925406833,
+      "gcn_mlp": 0.14678193926811217,
+      "prediction": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Chameleon",
+      "mlp_acc": 0.4964912235736847,
+      "homophily": 0.23053892215568864,
+      "gcn_mlp": 0.154824560880661,
+      "prediction": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Roman-empire",
+      "mlp_acc": 0.6562541484832763,
+      "homophily": 0.04689160871017706,
+      "gcn_mlp": -0.18870506286621092,
+      "prediction": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "mlp_acc": 0.4021637201309204,
+      "homophily": 0.3803761418592155,
+      "gcn_mlp": 0.028781384229660034,
+      "prediction": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Minesweeper",
+      "mlp_acc": 0.7963000297546386,
+      "homophily": 0.682782599868027,
+      "gcn_mlp": -0.0004999876022339089,
+      "prediction": "GCN_maybe",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Tolokers",
+      "mlp_acc": 0.7772958874702454,
+      "homophily": 0.5945221579961464,
+      "gcn_mlp": 0.005017018318176247,
+      "prediction": "GCN_maybe",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Questions",
+      "mlp_acc": 0.9708533644676208,
+      "homophily": 0.8395662368112544,
+      "gcn_mlp": -0.000327026844024636,
+      "prediction": "GCN_maybe",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Actor",
+      "mlp_acc": 0.36486843824386594,
+      "homophily": 0.21810114021456253,
+      "gcn_mlp": -0.06486842632293699,
+      "prediction": "Uncertain",
+      "actual": "MLP",
+      "correct": false
+    }
+  ]
+}

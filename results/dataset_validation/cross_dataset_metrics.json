@@ -1,0 +1,54 @@
+{
+  "IEEE-CIS": {
+    "n_nodes": 100000,
+    "n_edges": 4765352,
+    "n_features": 394,
+    "mean_degree": 47.65352,
+    "std_degree": 54.5984781070828,
+    "degree_cv": 1.1457386171490123,
+    "homophily": 0.9305910665151284,
+    "rho_fs": 0.0581284761428833,
+    "delta_agg": 11.248255729675293,
+    "sim_to_agg": 0.8401074409484863,
+    "fraud_rate": 0.03576
+  },
+  "YelpChi": {
+    "n_nodes": 45954,
+    "n_edges": 7693958,
+    "n_features": 32,
+    "mean_degree": 167.42738390564477,
+    "std_degree": 95.13675491883428,
+    "degree_cv": 0.5682269692062409,
+    "homophily": 0.773044770974835,
+    "rho_fs": 0.007684346288540311,
+    "delta_agg": 12.565060614756822,
+    "sim_to_agg": 0.9270414209996322,
+    "fraud_rate": 0.14529747138442792
+  },
+  "DGraphFin": {
+    "n_nodes": 1225601,
+    "n_edges": 0,
+    "n_features": 17,
+    "mean_degree": 0.0,
+    "std_degree": 0.0,
+    "degree_cv": NaN,
+    "homophily": NaN,
+    "rho_fs": NaN,
+    "delta_agg": NaN,
+    "sim_to_agg": NaN,
+    "fraud_rate": 0.012654199857865651
+  },
+  "Elliptic": {
+    "n_nodes": 203769,
+    "n_edges": 234355,
+    "n_features": 165,
+    "mean_degree": 1.1501013402431184,
+    "std_degree": 1.894735088409571,
+    "degree_cv": 1.6474505524957006,
+    "homophily": 0.7113396343154615,
+    "rho_fs": 0.27770015597343445,
+    "delta_agg": 0.9382658004760742,
+    "sim_to_agg": 0.32900819182395935,
+    "fraud_rate": NaN
+  }
+}
