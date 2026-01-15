@@ -89,6 +89,8 @@ data/Computers/
 data/Cora/
 data/Photo/
 data/PubMed/
+# Also ignore experiments/data/ (PyG cache)
+experiments/data/
 data/amazon_ratings/
 data/chameleon/
 data/cornell/
