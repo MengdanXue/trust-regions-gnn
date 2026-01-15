@@ -1,0 +1,260 @@
+{
+  "experiment": "h_sweep",
+  "h_values": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "n_runs": 5,
+  "mode": "pytorch",
+  "results": [
+    {
+      "h_target": 0.1,
+      "h_actual": 0.10539999999999998,
+      "gcn_acc": 1.0,
+      "mlp_acc": 1.0,
+      "selector_acc": 1.0,
+      "gcn_std": 0.0,
+      "mlp_std": 0.0,
+      "selector_std": 0.0,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.2,
+      "h_actual": 0.20580000000000004,
+      "gcn_acc": 0.9879999999999999,
+      "mlp_acc": 1.0,
+      "selector_acc": 1.0,
+      "gcn_std": 0.008124038404635967,
+      "mlp_std": 0.0,
+      "selector_std": 0.0,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.3,
+      "h_actual": 0.3016,
+      "gcn_acc": 0.937,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.9685,
+      "gcn_std": 0.012884098726725092,
+      "mlp_std": 0.0,
+      "selector_std": 0.006442049363362546,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.4,
+      "h_actual": 0.4064,
+      "gcn_acc": 0.8239999999999998,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.9119999999999999,
+      "gcn_std": 0.012409673645990818,
+      "mlp_std": 0.0,
+      "selector_std": 0.006204836822995395,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.5,
+      "h_actual": 0.5136,
+      "gcn_acc": 0.807,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.9035,
+      "gcn_std": 0.016911534525287746,
+      "mlp_std": 0.0,
+      "selector_std": 0.008455767262643892,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.6,
+      "h_actual": 0.607,
+      "gcn_acc": 0.8709999999999999,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.9355,
+      "gcn_std": 0.01200000000000001,
+      "mlp_std": 0.0,
+      "selector_std": 0.005999999999999976,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.7,
+      "h_actual": 0.7002,
+      "gcn_acc": 0.952,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.952,
+      "gcn_std": 0.006782329983125275,
+      "mlp_std": 0.0,
+      "selector_std": 0.006782329983125275,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.8,
+      "h_actual": 0.796,
+      "gcn_acc": 0.9819999999999999,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.9819999999999999,
+      "gcn_std": 0.0040000000000000036,
+      "mlp_std": 0.0,
+      "selector_std": 0.0040000000000000036,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    },
+    {
+      "h_target": 0.9,
+      "h_actual": 0.9042,
+      "gcn_acc": 0.998,
+      "mlp_acc": 1.0,
+      "selector_acc": 0.998,
+      "gcn_std": 0.0024494897427831805,
+      "mlp_std": 0.0,
+      "selector_std": 0.0024494897427831805,
+      "n_nodes": 1000,
+      "n_edges": 5000,
+      "gcn_wins": "False"
+    }
+  ],
+  "summary": {
+    "trust_high_h": [
+      {
+        "h_target": 0.7,
+        "h_actual": 0.7002,
+        "gcn_acc": 0.952,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.952,
+        "gcn_std": 0.006782329983125275,
+        "mlp_std": 0.0,
+        "selector_std": 0.006782329983125275,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      },
+      {
+        "h_target": 0.8,
+        "h_actual": 0.796,
+        "gcn_acc": 0.9819999999999999,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.9819999999999999,
+        "gcn_std": 0.0040000000000000036,
+        "mlp_std": 0.0,
+        "selector_std": 0.0040000000000000036,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      },
+      {
+        "h_target": 0.9,
+        "h_actual": 0.9042,
+        "gcn_acc": 0.998,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.998,
+        "gcn_std": 0.0024494897427831805,
+        "mlp_std": 0.0,
+        "selector_std": 0.0024494897427831805,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      }
+    ],
+    "trust_low_h": [
+      {
+        "h_target": 0.1,
+        "h_actual": 0.10539999999999998,
+        "gcn_acc": 1.0,
+        "mlp_acc": 1.0,
+        "selector_acc": 1.0,
+        "gcn_std": 0.0,
+        "mlp_std": 0.0,
+        "selector_std": 0.0,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      },
+      {
+        "h_target": 0.2,
+        "h_actual": 0.20580000000000004,
+        "gcn_acc": 0.9879999999999999,
+        "mlp_acc": 1.0,
+        "selector_acc": 1.0,
+        "gcn_std": 0.008124038404635967,
+        "mlp_std": 0.0,
+        "selector_std": 0.0,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      }
+    ],
+    "uncertainty": [
+      {
+        "h_target": 0.3,
+        "h_actual": 0.3016,
+        "gcn_acc": 0.937,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.9685,
+        "gcn_std": 0.012884098726725092,
+        "mlp_std": 0.0,
+        "selector_std": 0.006442049363362546,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      },
+      {
+        "h_target": 0.4,
+        "h_actual": 0.4064,
+        "gcn_acc": 0.8239999999999998,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.9119999999999999,
+        "gcn_std": 0.012409673645990818,
+        "mlp_std": 0.0,
+        "selector_std": 0.006204836822995395,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      },
+      {
+        "h_target": 0.5,
+        "h_actual": 0.5136,
+        "gcn_acc": 0.807,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.9035,
+        "gcn_std": 0.016911534525287746,
+        "mlp_std": 0.0,
+        "selector_std": 0.008455767262643892,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      },
+      {
+        "h_target": 0.6,
+        "h_actual": 0.607,
+        "gcn_acc": 0.8709999999999999,
+        "mlp_acc": 1.0,
+        "selector_acc": 0.9355,
+        "gcn_std": 0.01200000000000001,
+        "mlp_std": 0.0,
+        "selector_std": 0.005999999999999976,
+        "n_nodes": 1000,
+        "n_edges": 5000,
+        "gcn_wins": "False"
+      }
+    ]
+  }
+}

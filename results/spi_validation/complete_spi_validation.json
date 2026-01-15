@@ -1,0 +1,182 @@
+{
+  "experiment": "complete_spi_validation",
+  "description": "Comprehensive SPI validation across all available datasets",
+  "datasets": [
+    {
+      "dataset": "Texas",
+      "h": 0.108,
+      "SPI": 0.784,
+      "zone": "Trust (low h)",
+      "MLP": 88.6,
+      "GCN": 58.4,
+      "best": "MLP",
+      "SPI_prediction": "GNN (low h)",
+      "correct": false,
+      "note": "Strong heterophily but small dataset (183 nodes)"
+    },
+    {
+      "dataset": "Wisconsin",
+      "h": 0.196,
+      "SPI": 0.608,
+      "zone": "Trust (low h)",
+      "MLP": 86.8,
+      "GCN": 54.0,
+      "best": "MLP",
+      "SPI_prediction": "GNN (low h)",
+      "correct": false,
+      "note": "Strong heterophily but small dataset (251 nodes)"
+    },
+    {
+      "dataset": "Cornell",
+      "h": 0.131,
+      "SPI": 0.738,
+      "zone": "Trust (low h)",
+      "MLP": 82.2,
+      "GCN": 47.6,
+      "best": "MLP",
+      "SPI_prediction": "GNN (low h)",
+      "correct": false,
+      "note": "Strong heterophily but small dataset"
+    },
+    {
+      "dataset": "Squirrel",
+      "h": 0.224,
+      "SPI": 0.552,
+      "zone": "Trust (low h)",
+      "MLP": 35.7,
+      "GCN": 27.9,
+      "best": "MLP",
+      "SPI_prediction": "GNN (low h)",
+      "correct": false,
+      "note": "Large dataset (5201 nodes)"
+    },
+    {
+      "dataset": "Chameleon",
+      "h": 0.235,
+      "SPI": 0.530,
+      "zone": "Trust (low h)",
+      "MLP": 52.4,
+      "GCN": 39.8,
+      "best": "MLP",
+      "SPI_prediction": "GNN (low h)",
+      "correct": false,
+      "note": "Medium dataset (2277 nodes)"
+    },
+    {
+      "dataset": "Roman-empire",
+      "h": 0.047,
+      "SPI": 0.906,
+      "zone": "Trust (low h)",
+      "MLP": 66.7,
+      "GCN": 46.4,
+      "best": "MLP",
+      "SPI_prediction": "GNN (low h)",
+      "correct": false,
+      "note": "Very low homophily (22662 nodes)"
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "h": 0.380,
+      "SPI": 0.240,
+      "zone": "Uncertainty",
+      "MLP": 39.5,
+      "GCN": 42.0,
+      "best": "GCN",
+      "SPI_prediction": "MLP",
+      "correct": false,
+      "note": "Mid-homophily region"
+    },
+    {
+      "dataset": "Tolokers",
+      "h": 0.595,
+      "SPI": 0.190,
+      "zone": "Uncertainty",
+      "MLP": 78.5,
+      "GCN": 79.1,
+      "best": "GCN",
+      "SPI_prediction": "MLP",
+      "correct": false,
+      "note": "Mid-homophily region (11758 nodes)"
+    },
+    {
+      "dataset": "Minesweeper",
+      "h": 0.683,
+      "SPI": 0.366,
+      "zone": "Uncertainty",
+      "MLP": 80.2,
+      "GCN": 80.5,
+      "best": "Tie",
+      "SPI_prediction": "MLP",
+      "correct": true,
+      "note": "Near boundary, very small difference"
+    },
+    {
+      "dataset": "Questions",
+      "h": 0.840,
+      "SPI": 0.680,
+      "zone": "Trust (high h)",
+      "MLP": 97.0,
+      "GCN": 97.0,
+      "best": "Tie",
+      "SPI_prediction": "GNN (high h)",
+      "correct": true,
+      "note": "High homophily, both perform equally"
+    },
+    {
+      "dataset": "Cora",
+      "h": 0.81,
+      "SPI": 0.620,
+      "zone": "Trust (high h)",
+      "MLP": 74.8,
+      "GCN": 87.3,
+      "best": "GCN",
+      "SPI_prediction": "GNN (high h)",
+      "correct": true,
+      "note": "Classic benchmark, high homophily"
+    },
+    {
+      "dataset": "ogbn-arxiv",
+      "h": 0.655,
+      "SPI": 0.310,
+      "zone": "Uncertainty",
+      "MLP": 53.4,
+      "GCN": 52.8,
+      "best": "MLP",
+      "SPI_prediction": "MLP",
+      "correct": true,
+      "note": "Large-scale (169K nodes)"
+    }
+  ],
+  "summary": {
+    "total_datasets": 12,
+    "trust_region_low": {
+      "count": 6,
+      "correct": 0,
+      "accuracy": "0%",
+      "note": "SPI predicts GNN should work for low-h, but MLP actually wins"
+    },
+    "uncertainty_zone": {
+      "count": 4,
+      "correct": 2,
+      "accuracy": "50%",
+      "note": "Mixed results as expected"
+    },
+    "trust_region_high": {
+      "count": 2,
+      "correct": 2,
+      "accuracy": "100%",
+      "note": "SPI correctly predicts GNN advantage"
+    },
+    "overall_accuracy": "33% (4/12)",
+    "key_insight": "SPI works well for high-h datasets but fails for low-h datasets. This suggests the assumption that low-h graphs benefit from GNN aggregation is incorrect for real-world data."
+  },
+  "revised_framework": {
+    "insight": "The U-shape only holds in controlled synthetic settings. In real-world heterophilic graphs, noise and label mixing make GNN aggregation harmful regardless of SPI.",
+    "recommendation": "For low-h real datasets, use MLP or heterophily-aware GNNs (H2GCN, LINKX) instead of standard GCN",
+    "new_decision_rule": {
+      "high_h": "h > 0.7 → Use GCN/GAT",
+      "mid_h": "0.3 ≤ h ≤ 0.7 → Use MLP or SPI-Fusion",
+      "low_h": "h < 0.3 → Use MLP or H2GCN (NOT standard GCN)"
+    }
+  }
+}

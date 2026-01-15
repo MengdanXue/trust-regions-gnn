@@ -1,0 +1,205 @@
+{
+  "timestamp": "2026-01-16T00:07:31.561495",
+  "method": "Leave-One-Out Cross-Validation",
+  "total_datasets": 19,
+  "overall_accuracy": 1.0,
+  "bootstrap_ci_lower": 1.0,
+  "bootstrap_ci_upper": 1.0,
+  "high_h_accuracy": 1.0,
+  "low_h_accuracy": 1.0,
+  "q2_accuracy": 1.0,
+  "decisive_accuracy": 1.0,
+  "detailed_results": [
+    {
+      "dataset": "Cora",
+      "h": 0.8099658961727927,
+      "mlp_mean": 0.7512915253639221,
+      "gcn_mlp": 0.12693725824356084,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "CiteSeer",
+      "h": 0.7355008787346221,
+      "mlp_mean": 0.7381381630897522,
+      "gcn_mlp": 0.03243242502212518,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "PubMed",
+      "h": 0.8023869686851367,
+      "mlp_mean": 0.8763184547424316,
+      "gcn_mlp": 0.0013691544532775657,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Cornell",
+      "h": 0.12746858168761221,
+      "mlp_mean": 0.7135135412216187,
+      "gcn_mlp": -0.24324326515197758,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true,
+      "quadrant": "Q2"
+    },
+    {
+      "dataset": "Texas",
+      "h": 0.08710801393728224,
+      "mlp_mean": 0.7783784031867981,
+      "gcn_mlp": -0.24324325323104856,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true,
+      "quadrant": "Q2"
+    },
+    {
+      "dataset": "Wisconsin",
+      "h": 0.19213973799126638,
+      "mlp_mean": 0.7960784435272217,
+      "gcn_mlp": -0.30588234066963194,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true,
+      "quadrant": "Q2"
+    },
+    {
+      "dataset": "Chameleon",
+      "h": 0.23053892215568864,
+      "mlp_mean": 0.49035088419914247,
+      "gcn_mlp": 0.1561403334140778,
+      "predicted": "Uncertain",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q4"
+    },
+    {
+      "dataset": "Squirrel",
+      "h": 0.2224086925406833,
+      "mlp_mean": 0.3283381283283234,
+      "gcn_mlp": 0.160230541229248,
+      "predicted": "Uncertain",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q4"
+    },
+    {
+      "dataset": "Actor",
+      "h": 0.21810114021456253,
+      "mlp_mean": 0.36447370052337646,
+      "gcn_mlp": -0.06921053528785703,
+      "predicted": "Uncertain",
+      "actual": "MLP",
+      "correct": true,
+      "quadrant": "Q4"
+    },
+    {
+      "dataset": "Amazon-Computers",
+      "h": 0.7772155811617133,
+      "mlp_mean": 0.8251545190811157,
+      "gcn_mlp": 0.06819338798522956,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Amazon-Photo",
+      "h": 0.8272436408830964,
+      "mlp_mean": 0.9166013240814209,
+      "gcn_mlp": 0.022483658790588334,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Coauthor-CS",
+      "h": 0.8080567562947224,
+      "mlp_mean": 0.9415871381759644,
+      "gcn_mlp": -0.005944919586181707,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Coauthor-Physics",
+      "h": 0.9314451407877014,
+      "mlp_mean": 0.9578779578208924,
+      "gcn_mlp": 0.006348741054534868,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "DBLP",
+      "h": 0.8279266839427242,
+      "mlp_mean": 0.7775395154953003,
+      "gcn_mlp": 0.07889391183853145,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Roman-empire",
+      "h": 0.04689160871017706,
+      "mlp_mean": 0.657004201412201,
+      "gcn_mlp": -0.18791089057922367,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true,
+      "quadrant": "Q2"
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "h": 0.3803761418592155,
+      "mlp_mean": 0.4070626676082611,
+      "gcn_mlp": 0.022249442338943493,
+      "predicted": "Uncertain",
+      "actual": "GCN",
+      "correct": true,
+      "quadrant": "Q4"
+    },
+    {
+      "dataset": "Minesweeper",
+      "h": 0.682782599868027,
+      "mlp_mean": 0.7963000297546386,
+      "gcn_mlp": -0.0003999948501586248,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Tolokers",
+      "h": 0.5945221579961464,
+      "mlp_mean": 0.7772958874702454,
+      "gcn_mlp": 0.004081642627716042,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true,
+      "quadrant": "Q1"
+    },
+    {
+      "dataset": "Questions",
+      "h": 0.8395662368112544,
+      "mlp_mean": 0.9709351301193238,
+      "gcn_mlp": -0.00040879249572756127,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true,
+      "quadrant": "Q1"
+    }
+  ],
+  "failures": []
+}

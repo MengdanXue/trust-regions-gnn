@@ -1,0 +1,39 @@
+{
+  "Photo": [
+    {
+      "h": 0.1,
+      "delta": -57.1
+    },
+    {
+      "h": 0.3,
+      "delta": -40.5
+    },
+    {
+      "h": 0.5,
+      "delta": 2.6
+    },
+    {
+      "h": 0.7,
+      "delta": 8.1
+    },
+    {
+      "h": 0.9,
+      "delta": 8.2
+    }
+  ],
+  "Computers_partial": [
+    {
+      "h": 0.1,
+      "delta": -35.8
+    },
+    {
+      "h": 0.3,
+      "delta": -25.3
+    },
+    {
+      "h": 0.5,
+      "delta": 6.0
+    }
+  ],
+  "note": "Photo complete, Computers partial (h=0.7,0.9 timed out due to class imbalance)"
+}

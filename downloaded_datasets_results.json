@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "Texas",
+    "num_nodes": 183,
+    "num_edges": 325,
+    "homophily": 0.1076923076923077,
+    "h2_hop": 0.5711045192811027,
+    "recovery_ratio": 5.303113393324525,
+    "mlp_mean": 0.7675675868988037,
+    "gcn_mean": 0.5297297477722168,
+    "gcn_mlp": -0.23783783912658685
+  },
+  {
+    "dataset": "Chameleon",
+    "num_nodes": 2277,
+    "num_edges": 36101,
+    "homophily": 0.23500734051688318,
+    "h2_hop": 0.22799421844870527,
+    "recovery_ratio": 0.970157859525779,
+    "mlp_mean": 0.4951754450798035,
+    "gcn_mean": 0.6521929740905762,
+    "gcn_mlp": 0.1570175290107727
+  },
+  {
+    "dataset": "Roman-empire",
+    "num_nodes": 22662,
+    "num_edges": 16463,
+    "homophily": 0.04689160871017706,
+    "h2_hop": -1,
+    "recovery_ratio": -1,
+    "mlp_mean": 0.6562541484832763,
+    "gcn_mean": 0.42294286489486693,
+    "gcn_mlp": -0.2333112835884094
+  }
+]

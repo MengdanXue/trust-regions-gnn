@@ -1,0 +1,1 @@
+{"penn94": {"nodes": 38815, "edges": 2724458, "homophily": 0.511, "spi": 0.022, "mlp_acc": 71.4, "gcn_acc": 73.5, "gcn_mlp_delta": 2.1, "note": "Trust Region boundary - minimal SPI predicts marginal GNN advantage"}}

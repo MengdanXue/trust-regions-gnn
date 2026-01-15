@@ -83,6 +83,27 @@ data/raw/
 data/processed/
 *.csv
 *.parquet
+# Exclude downloaded PyG datasets (large)
+data/CiteSeer/
+data/Computers/
+data/Cora/
+data/Photo/
+data/PubMed/
+data/amazon_ratings/
+data/chameleon/
+data/cornell/
+data/genius/
+data/minesweeper/
+data/penn94/
+data/questions/
+data/roman_empire/
+data/squirrel/
+data/texas/
+data/tolokers/
+data/wisconsin/
+*.npz
+*_node_feature_label.txt
+*_graph_edges.txt
 
 # But keep JSON results
 !data/*.json
@@ -91,9 +112,9 @@ data/processed/
 logs/
 *.log
 
-# Results (generated, not source)
-results/
-!results/.gitkeep
+# Results (keep experiment results)
+# results/
+# !results/.gitkeep
 
 # OS files
 .DS_Store

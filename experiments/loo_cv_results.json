@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-01-16T00:06:06.580308",
+  "method": "Leave-One-Out Cross-Validation",
+  "total_datasets": 9,
+  "accuracy": 0.7777777777777778,
+  "high_h_accuracy": 1.0,
+  "low_h_accuracy": 0.6,
+  "q2_accuracy": 1.0,
+  "detailed_results": [
+    {
+      "dataset": "Cora",
+      "h": 0.8099658961727927,
+      "recovery_ratio": 0.8940883460098145,
+      "mlp_mean": 0.7549815654754639,
+      "gcn_mlp": 0.12103320360183711,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "CiteSeer",
+      "h": 0.7355008787346221,
+      "recovery_ratio": 1.0075821622001668,
+      "mlp_mean": 0.742042064666748,
+      "gcn_mlp": 0.02522522211074829,
+      "predicted": "GNN",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "Wisconsin",
+      "h": 0.19213973799126638,
+      "recovery_ratio": 2.2112477631184073,
+      "mlp_mean": 0.7960784435272217,
+      "gcn_mlp": -0.3254901885986328,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Cornell",
+      "h": 0.12746858168761221,
+      "recovery_ratio": 3.0715361110368726,
+      "mlp_mean": 0.7243243455886841,
+      "gcn_mlp": -0.28108109831809996,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Squirrel",
+      "h": 0.2224086925406833,
+      "recovery_ratio": 0.8848380642895006,
+      "mlp_mean": 0.3325648307800293,
+      "gcn_mlp": 0.15177713632583617,
+      "predicted": "MLP",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Actor",
+      "h": 0.21810114021456253,
+      "recovery_ratio": 0.9607230730113722,
+      "mlp_mean": 0.36486843824386594,
+      "gcn_mlp": -0.06486842632293699,
+      "predicted": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "h": 0.3803761418592155,
+      "recovery_ratio": null,
+      "mlp_mean": 0.4021637201309204,
+      "gcn_mlp": 0.02833231091499333,
+      "predicted": "MLP",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Minesweeper",
+      "h": 0.682782599868027,
+      "recovery_ratio": null,
+      "mlp_mean": 0.7963000297546386,
+      "gcn_mlp": -0.0004999876022339089,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Tolokers",
+      "h": 0.5945221579961464,
+      "recovery_ratio": null,
+      "mlp_mean": 0.7772958874702454,
+      "gcn_mlp": 0.004591846466064475,
+      "predicted": "GNN",
+      "actual": "Tie",
+      "correct": true
+    }
+  ],
+  "failures": [
+    {
+      "dataset": "Squirrel",
+      "h": 0.2224086925406833,
+      "recovery_ratio": 0.8848380642895006,
+      "mlp_mean": 0.3325648307800293,
+      "gcn_mlp": 0.15177713632583617,
+      "predicted": "MLP",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "h": 0.3803761418592155,
+      "recovery_ratio": null,
+      "mlp_mean": 0.4021637201309204,
+      "gcn_mlp": 0.02833231091499333,
+      "predicted": "MLP",
+      "actual": "GCN",
+      "correct": false
+    }
+  ]
+}
