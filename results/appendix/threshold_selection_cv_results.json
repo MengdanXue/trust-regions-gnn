@@ -1,0 +1,269 @@
+{
+  "best_params": {
+    "fs_high": 0.75,
+    "fs_low": 0.35,
+    "residual_threshold": 0.05
+  },
+  "best_loocv_accuracy": 0.7777777777777778,
+  "original_params_accuracy": 0.6923076923076923,
+  "grid_search_results": [
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.35,
+      "res_thresh": 0.05,
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "total": 9
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.35,
+      "res_thresh": 0.1,
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "total": 9
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.4,
+      "res_thresh": 0.1,
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "total": 9
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.45,
+      "res_thresh": 0.1,
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "total": 9
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.5,
+      "res_thresh": 0.1,
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "total": 9
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.35,
+      "res_thresh": 0.15,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.35,
+      "res_thresh": 0.2,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.4,
+      "res_thresh": 0.15,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.4,
+      "res_thresh": 0.2,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.45,
+      "res_thresh": 0.15,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.45,
+      "res_thresh": 0.2,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.5,
+      "res_thresh": 0.15,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.5,
+      "res_thresh": 0.2,
+      "accuracy": 0.75,
+      "correct": 6,
+      "total": 8
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.4,
+      "res_thresh": 0.05,
+      "accuracy": 0.7,
+      "correct": 7,
+      "total": 10
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.45,
+      "res_thresh": 0.05,
+      "accuracy": 0.7,
+      "correct": 7,
+      "total": 10
+    },
+    {
+      "fs_high": 0.75,
+      "fs_low": 0.5,
+      "res_thresh": 0.05,
+      "accuracy": 0.7,
+      "correct": 7,
+      "total": 10
+    },
+    {
+      "fs_high": 0.55,
+      "fs_low": 0.35,
+      "res_thresh": 0.05,
+      "accuracy": 0.6923076923076923,
+      "correct": 9,
+      "total": 13
+    },
+    {
+      "fs_high": 0.55,
+      "fs_low": 0.35,
+      "res_thresh": 0.1,
+      "accuracy": 0.6923076923076923,
+      "correct": 9,
+      "total": 13
+    },
+    {
+      "fs_high": 0.55,
+      "fs_low": 0.4,
+      "res_thresh": 0.1,
+      "accuracy": 0.6923076923076923,
+      "correct": 9,
+      "total": 13
+    },
+    {
+      "fs_high": 0.55,
+      "fs_low": 0.45,
+      "res_thresh": 0.1,
+      "accuracy": 0.6923076923076923,
+      "correct": 9,
+      "total": 13
+    }
+  ],
+  "predictions": [
+    {
+      "dataset": "Texas",
+      "pred": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Wisconsin",
+      "pred": "MLP",
+      "actual": "MLP",
+      "correct": true
+    },
+    {
+      "dataset": "Cornell",
+      "pred": "Uncertain",
+      "actual": "MLP",
+      "correct": false
+    },
+    {
+      "dataset": "Squirrel",
+      "pred": "GCN",
+      "actual": "GCN",
+      "correct": true
+    },
+    {
+      "dataset": "Chameleon",
+      "pred": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Actor",
+      "pred": "Uncertain",
+      "actual": "MLP",
+      "correct": false
+    },
+    {
+      "dataset": "Cora",
+      "pred": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "CiteSeer",
+      "pred": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "PubMed",
+      "pred": "MLP",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Computers",
+      "pred": "MLP",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Photo",
+      "pred": "MLP",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Roman-empire",
+      "pred": "Uncertain",
+      "actual": "MLP",
+      "correct": false
+    },
+    {
+      "dataset": "Amazon-ratings",
+      "pred": "Uncertain",
+      "actual": "GCN",
+      "correct": false
+    },
+    {
+      "dataset": "Minesweeper",
+      "pred": "MLP",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Tolokers",
+      "pred": "MLP",
+      "actual": "Tie",
+      "correct": true
+    },
+    {
+      "dataset": "Questions",
+      "pred": "MLP",
+      "actual": "Tie",
+      "correct": true
+    }
+  ]
+}

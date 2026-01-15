@@ -1,0 +1,111 @@
+{
+  "datasets": {
+    "Elliptic": {
+      "mean_degree": 1.15,
+      "sim_to_agg": 0.329,
+      "rho_fs": 0.278,
+      "delta_agg": 0.94,
+      "homophily": 0.711,
+      "n_features": 165,
+      "best_method": "NAA",
+      "naa_wins": true,
+      "naa_auc": 0.802,
+      "best_auc": 0.802
+    },
+    "Amazon": {
+      "mean_degree": 16.6,
+      "sim_to_agg": 0.7,
+      "rho_fs": 0.18,
+      "delta_agg": 5.0,
+      "homophily": 0.38,
+      "n_features": 767,
+      "best_method": "NAA",
+      "naa_wins": true,
+      "naa_auc": 0.802,
+      "best_auc": 0.802
+    },
+    "YelpChi": {
+      "mean_degree": 167.4,
+      "sim_to_agg": 0.927,
+      "rho_fs": 0.008,
+      "delta_agg": 12.57,
+      "homophily": 0.773,
+      "n_features": 32,
+      "best_method": "H2GCN",
+      "naa_wins": false,
+      "naa_auc": 0.906,
+      "best_auc": 0.911
+    },
+    "IEEE-CIS": {
+      "mean_degree": 47.65,
+      "sim_to_agg": 0.84,
+      "rho_fs": 0.058,
+      "delta_agg": 11.25,
+      "homophily": 0.931,
+      "n_features": 394,
+      "best_method": "H2GCN",
+      "naa_wins": false,
+      "naa_auc": 0.749,
+      "best_auc": 0.818
+    }
+  },
+  "predictions": {
+    "Degree only": {
+      "Elliptic": 1,
+      "Amazon": 1,
+      "YelpChi": 1,
+      "IEEE-CIS": 1
+    },
+    "(1-Sim) only": {
+      "Elliptic": 0,
+      "Amazon": 0,
+      "YelpChi": 0,
+      "IEEE-CIS": 0
+    },
+    "rho_FS only": {
+      "Elliptic": 1,
+      "Amazon": 1,
+      "YelpChi": 0,
+      "IEEE-CIS": 0
+    },
+    "d_agg only": {
+      "Elliptic": 1,
+      "Amazon": 1,
+      "YelpChi": 1,
+      "IEEE-CIS": 1
+    },
+    "Extended FSD": {
+      "Elliptic": 1,
+      "Amazon": 1,
+      "YelpChi": 1,
+      "IEEE-CIS": 1
+    }
+  },
+  "summary": {
+    "Degree only": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "total": 4
+    },
+    "(1-Sim) only": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 4
+    },
+    "rho_FS only": {
+      "accuracy": 0.5,
+      "correct": 2,
+      "total": 4
+    },
+    "d_agg only": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "total": 4
+    },
+    "Extended FSD": {
+      "accuracy": 1.0,
+      "correct": 4,
+      "total": 4
+    }
+  }
+}

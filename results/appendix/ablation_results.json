@@ -1,0 +1,1404 @@
+{
+  "configurations": [
+    {
+      "name": "Full FSD",
+      "use_rho_fs": true,
+      "use_delta_agg": true,
+      "use_homophily": true
+    },
+    {
+      "name": "Only ρ_FS",
+      "use_rho_fs": true,
+      "use_delta_agg": false,
+      "use_homophily": false
+    },
+    {
+      "name": "Only δ_agg",
+      "use_rho_fs": false,
+      "use_delta_agg": true,
+      "use_homophily": false
+    },
+    {
+      "name": "Only h",
+      "use_rho_fs": false,
+      "use_delta_agg": false,
+      "use_homophily": true
+    },
+    {
+      "name": "ρ_FS + δ_agg",
+      "use_rho_fs": true,
+      "use_delta_agg": true,
+      "use_homophily": false
+    },
+    {
+      "name": "ρ_FS + h",
+      "use_rho_fs": true,
+      "use_delta_agg": false,
+      "use_homophily": true
+    },
+    {
+      "name": "δ_agg + h",
+      "use_rho_fs": false,
+      "use_delta_agg": true,
+      "use_homophily": true
+    }
+  ],
+  "results": [
+    {
+      "dataset": "Elliptic",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "Full FSD",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.64"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "Full FSD",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Elliptic",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.01 < 0.05"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.01 < 0.05"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=-0.00 < 0.05"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=-0.01 < 0.05"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.01 < 0.05"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=-0.28 < 0.05"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "Only ρ_FS",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "Elliptic",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "Only δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "Only δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Elliptic",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "Only h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "Only h",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "Elliptic",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "ρ_FS + δ_agg",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Elliptic",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "C",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.95,
+      "matched_rule": "ρ_FS > 0.00 AND h > 0.74"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.95,
+      "matched_rule": "ρ_FS > 0.00 AND h > 0.74"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.95,
+      "matched_rule": "ρ_FS > 0.00 AND h > 0.74"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.95,
+      "matched_rule": "ρ_FS > 0.00 AND h > 0.74"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.5,
+      "matched_rule": "Default: Most common class"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.95,
+      "matched_rule": "ρ_FS > 0.00 AND h > 0.74"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 0.95,
+      "matched_rule": "ρ_FS > 0.00 AND h > 0.74"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 0.8,
+      "matched_rule": "h < 0.51"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "ρ_FS + h",
+      "predicted_class": "C",
+      "actual_class": "B",
+      "correct": false,
+      "confidence": 0.6,
+      "matched_rule": "Default: ρ_FS=0.00 < 0.05"
+    },
+    {
+      "dataset": "Elliptic",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Amazon",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Flickr",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Inj-Cora",
+      "config_name": "δ_agg + h",
+      "predicted_class": "A",
+      "actual_class": "A",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg < 3.53 AND n_features > 100"
+    },
+    {
+      "dataset": "Cornell",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Texas",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Wisconsin",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.64"
+    },
+    {
+      "dataset": "Chameleon",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Squirrel",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Actor",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Cora",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "CiteSeer",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "PubMed",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "Flickr",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-HighH",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "A",
+      "correct": false,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-MidH",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-LowH",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-NoisyF",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    },
+    {
+      "dataset": "cSBM-CleanF",
+      "config_name": "δ_agg + h",
+      "predicted_class": "B",
+      "actual_class": "B",
+      "correct": true,
+      "confidence": 1.0,
+      "matched_rule": "δ_agg > 2.44"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "Elliptic",
+      "rho_fs": 0.0014526140876114368,
+      "delta_agg": 3.0364999771118164,
+      "homophily": 0.7634479999542236,
+      "n_features": 166,
+      "actual_class": "A"
+    },
+    {
+      "name": "Inj-Amazon",
+      "rho_fs": 0.13782352209091187,
+      "delta_agg": 3.5271594524383545,
+      "homophily": 0.9069900512695312,
+      "n_features": 767,
+      "actual_class": "A"
+    },
+    {
+      "name": "Inj-Flickr",
+      "rho_fs": 0.006044924259185791,
+      "delta_agg": 0.970330536365509,
+      "homophily": 0.907258927822113,
+      "n_features": 500,
+      "actual_class": "A"
+    },
+    {
+      "name": "Inj-Cora",
+      "rho_fs": 0.10283274948596954,
+      "delta_agg": 0.3810930550098419,
+      "homophily": 0.906690776348114,
+      "n_features": 1433,
+      "actual_class": "A"
+    },
+    {
+      "name": "Cornell",
+      "rho_fs": 0.05787450075149536,
+      "delta_agg": 2.6979167461395264,
+      "homophily": 0.13087248802185059,
+      "n_features": 1703,
+      "actual_class": "B"
+    },
+    {
+      "name": "Texas",
+      "rho_fs": 0.05338743329048157,
+      "delta_agg": 2.6363637447357178,
+      "homophily": 0.10769230872392654,
+      "n_features": 1703,
+      "actual_class": "B"
+    },
+    {
+      "name": "Wisconsin",
+      "rho_fs": 0.06323027610778809,
+      "delta_agg": 2.4352941513061523,
+      "homophily": 0.19611650705337524,
+      "n_features": 1703,
+      "actual_class": "B"
+    },
+    {
+      "name": "Chameleon",
+      "rho_fs": 0.009225326124578714,
+      "delta_agg": 12.128678321838379,
+      "homophily": 0.23500734567642212,
+      "n_features": 2325,
+      "actual_class": "B"
+    },
+    {
+      "name": "Squirrel",
+      "rho_fs": -0.0012309737503528595,
+      "delta_agg": 32.39011764526367,
+      "homophily": 0.2239430993795395,
+      "n_features": 2089,
+      "actual_class": "B"
+    },
+    {
+      "name": "Actor",
+      "rho_fs": -0.006397262215614319,
+      "delta_agg": 3.3676047325134277,
+      "homophily": 0.21876144409179688,
+      "n_features": 932,
+      "actual_class": "B"
+    },
+    {
+      "name": "Cora",
+      "rho_fs": 0.11274222657084465,
+      "delta_agg": 0.7407680749893188,
+      "homophily": 0.8099659085273743,
+      "n_features": 1433,
+      "actual_class": "A"
+    },
+    {
+      "name": "CiteSeer",
+      "rho_fs": 0.14683380722999573,
+      "delta_agg": 0.734370231628418,
+      "homophily": 0.7355008721351624,
+      "n_features": 3703,
+      "actual_class": "A"
+    },
+    {
+      "name": "PubMed",
+      "rho_fs": 0.20009422302246094,
+      "delta_agg": 0.8884719014167786,
+      "homophily": 0.8023869395256042,
+      "n_features": 500,
+      "actual_class": "A"
+    },
+    {
+      "name": "Flickr",
+      "rho_fs": 0.006264001131057739,
+      "delta_agg": 6.860347270965576,
+      "homophily": 0.3194977343082428,
+      "n_features": 500,
+      "actual_class": "B"
+    },
+    {
+      "name": "cSBM-HighH",
+      "rho_fs": 0.2913578748703003,
+      "delta_agg": 0.9440000057220459,
+      "homophily": 0.9050779342651367,
+      "n_features": 100,
+      "actual_class": "A"
+    },
+    {
+      "name": "cSBM-MidH",
+      "rho_fs": 0.0020032525062561035,
+      "delta_agg": 4.923999786376953,
+      "homophily": 0.5061678886413574,
+      "n_features": 100,
+      "actual_class": "B"
+    },
+    {
+      "name": "cSBM-LowH",
+      "rho_fs": -0.2835862934589386,
+      "delta_agg": 8.918999671936035,
+      "homophily": 0.10424827039241791,
+      "n_features": 100,
+      "actual_class": "B"
+    },
+    {
+      "name": "cSBM-NoisyF",
+      "rho_fs": 0.0019153356552124023,
+      "delta_agg": 4.923999786376953,
+      "homophily": 0.5061678886413574,
+      "n_features": 100,
+      "actual_class": "B"
+    },
+    {
+      "name": "cSBM-CleanF",
+      "rho_fs": 0.0019843578338623047,
+      "delta_agg": 4.923999786376953,
+      "homophily": 0.5061678886413574,
+      "n_features": 100,
+      "actual_class": "B"
+    }
+  ],
+  "method_classes": {
+    "A": "Mean-aggregation (GCN, GAT, NAA)",
+    "B": "Sampling/Concatenation (GraphSAGE, H2GCN)",
+    "C": "No structure (MLP)"
+  }
+}
